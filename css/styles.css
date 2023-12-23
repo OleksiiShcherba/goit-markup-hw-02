@@ -51,7 +51,7 @@ h3 {
     color: #2E2F42;
 }
 
-.header-list a{
+.link{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -59,13 +59,13 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-.header-list a:hover,
-.header-list a:focus
+.link:hover,
+.link:focus
 {
     color: #404BBF;
 }
 
-.header-list a:active {
+.link:active {
     color: #404BBF;
     text-decoration: underline;
 }
