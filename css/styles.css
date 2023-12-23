@@ -13,6 +13,20 @@ ul {
     list-style-type: none;
 }
 
+p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -25,21 +39,6 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.header-list {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.header-address {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .logo {
@@ -56,6 +55,37 @@ ul {
     color: #4D5AE5;
 }
 
+.header-list a{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-list a:hover,
+.header-list a:focus
+{
+    color: #404BBF;
+}
+
+.header-list a:active {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.header-address a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.header-address a:hover,
+.header-address a:focus {
+    color: #404BBF;
+}
+
 .main-order {
     color: #FFF;
     background-color: #2E2F42;
@@ -70,24 +100,18 @@ ul {
 }
 
 .main-order-button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04px;
 }
 
-.main-features-list h3{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.main-features-list p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.main-order-button:hover,
+.main-order-button:focus {
+    background-color: #404BBF;
 }
 
 .main-team {
@@ -104,37 +128,17 @@ ul {
 
 .main-team-list h3{
     text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 
 .main-team-list p {
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
-.main-portfolio-list h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.main-portfolio-list p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
 
 .footer-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
