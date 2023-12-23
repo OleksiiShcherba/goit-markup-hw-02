@@ -19,6 +19,10 @@ p {
     letter-spacing: 0.02em;
 }
 
+address {
+    font-style: normal;
+}
+
 h2 {
     color: #2E2F42;
     font-size: 36px;
@@ -51,7 +55,7 @@ h3 {
     color: #2E2F42;
 }
 
-.link{
+.header-list-link{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -59,26 +63,25 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-.link:hover,
-.link:focus
+.header-list-link:hover,
+.header-list-link:focus
 {
     color: #404BBF;
 }
 
-.link:active {
+.header-list-link:active {
     color: #404BBF;
     text-decoration: underline;
 }
 
-.header-address a {
+.header-address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
-.header-address a:hover,
-.header-address a:focus {
+.header-address-link:hover,
+.header-address-link:focus {
     color: #404BBF;
 }
 
