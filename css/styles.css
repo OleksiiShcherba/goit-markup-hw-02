@@ -32,7 +32,7 @@ h2 {
     text-transform: capitalize;
 }
 
-h3 {
+.third-level-header {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -88,6 +88,7 @@ h3 {
 .main-order {
     color: #FFF;
     background-color: #2E2F42;
+    text-align: center;
 }
 
 .main-order-header {
@@ -104,7 +105,7 @@ h3 {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04px;
+    letter-spacing: 0.04em;
 }
 
 .main-order-button:hover,
