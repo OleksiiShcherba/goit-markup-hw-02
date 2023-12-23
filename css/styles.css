@@ -37,18 +37,18 @@ h3 {
 }
 
 .logo {
-    color: #2E2F42;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.logo-color {
-    color: #4D5AE5;
+.logo-color-black {
+    color: #2E2F42;
 }
 
 .header-list a{
@@ -118,6 +118,6 @@ h3 {
     color: #F4F4FD;
 }
 
-.footer-logo {
+.logo-color-white {
     color: #F4F4FD;
 }
